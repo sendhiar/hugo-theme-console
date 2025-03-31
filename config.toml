@@ -2,6 +2,7 @@ baseurl = "https://sendhiar.github.io/"
 title = "sendhiar-blog"
 theme = "hugo-theme-console"
 languageCode = "en-us"
+googleAnalytics = "G-W6R2LTJLDG"
 
 [params]  
   # Cutting off the page title to two chars for mobile (console-demo -> co)
@@ -27,9 +28,9 @@ languageCode = "en-us"
   name = "links/"
   url = "https://linktr.ee/sendhiar"
 
-  # [[params.navlinks]]
-  # name = "about/"
-  # url = "about/"
+  [[params.navlinks]]
+  name = "about/"
+  url = "about/"
   
   # [[params.navlinks]]
   # name = "photos/"
