@@ -1,0 +1,52 @@
+baseurl = "https://sendhiar.github.io/"
+title = "sendhiar-blog"
+theme = "hugo-theme-console"
+languageCode = "en-us"
+
+[params]  
+  # Cutting off the page title to two chars for mobile (console-demo -> co)
+  titleCutting = true
+
+  # Set the animation style -- https://animate.style/
+  # To disable animations, please remove or comment animationStyle parameter
+  animateStyle = "animated zoomIn fast" 
+
+  [[params.navlinks]]
+  name = "posts/"
+  url = "posts/"
+
+  [[params.navlinks]]
+  name = "podcasts/"
+  url = "https://livingsocietyradio.bandcamp.com"
+
+  [[params.navlinks]]
+  name = "portfolio/"
+  url = "https://bit.ly/portfoliosendhiar"
+
+  [[params.navlinks]]
+  name = "links/"
+  url = "https://linktr.ee/sendhiar"
+
+  # [[params.navlinks]]
+  # name = "about/"
+  # url = "about/"
+  
+  # [[params.navlinks]]
+  # name = "photos/"
+  # url = "photos/"
+
+  # [[params.navlinks]]
+  # name = "categories/"
+  # url = "categories/"
+
+  # [[params.navlinks]]
+  # name = "tags/"
+  # url = "tags/"
+
+  [[params.socmed]]
+  name = "linkedin"
+  url = "https://linkedin.com/in/sendhiar"
+
+  [[params.socmed]]
+  name = "github"
+  url = "https://github.com/sendhiar"

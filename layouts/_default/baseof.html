@@ -40,7 +40,10 @@
           <nav class="terminal-menu">
             <ul vocab="https://schema.org/" typeof="BreadcrumbList">
                 {{ range .Site.Params.navlinks }}
-                <li><a href="{{ absURL .url }}" typeof="ListItem">{{ .name }}</a></li>
+                <li>
+                  <a href="{{ absURL .url }}" typeof="ListItem" {{ if (or (strings.HasPrefix .url "http://") (strings.HasPrefix .url "https://")) }}
+                  target="_blank" rel="noopener noreferrer"{{ end }}>{{ .name }}</a>
+                </li>
                 {{ end }}
             </ul>
           </nav>

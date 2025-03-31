@@ -1,4 +1,22 @@
-<div class="footer">
+<!-- <div class="footer">
+    <p>Created by sendhiar</p>
     Powered by <a href="https://gohugo.io/">Hugo</a> with
-    <a href="https://github.com/mrmierzejewski/hugo-theme-console/">Console Theme</a>. 
-</div>
+    <a href="https://github.com/mrmierzejewski/hugo-theme-console/">Console Theme</a>.  
+</div> -->
+
+<footer class="footer">
+    <div class="left">
+        <!-- Left-aligned content -->
+        <p>🄯 {{ now.Year }} sendhiar</p>
+    </div>
+    <div class="right">
+        <!-- Right-aligned content -->
+        <p>
+        {{ with .Site.Params.socmed }}
+            {{ range $index, $element := . }}
+                <a href="{{ $element.url }}" target="_blank" rel="noopener noreferrer">{{ $element.name }}</a>{{ if lt (add $index 1) (len .) }} | {{ end }}
+            {{ end }}
+        {{ end }}
+        </p>
+    </div>
+</footer>
