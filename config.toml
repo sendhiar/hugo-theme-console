@@ -1,10 +1,20 @@
 baseurl = "https://sendhiar.github.io/"
 title = "sendhiar-blog"
 theme = "hugo-theme-console"
+
 languageCode = "en-us"
+
 googleAnalytics = "G-W6R2LTJLDG"
 
-[params]  
+enableEmoji: = true
+enableRobotsTXT = true
+
+[params]
+  author = "sendhiar"
+  sitename = "sendhiar-blog"
+  github = "https://github.com/sendhiar"
+  description = " A vault of sendhiar's writing throughout the years. Talks about music, games, and stuff."
+
   # Cutting off the page title to two chars for mobile (console-demo -> co)
   titleCutting = true
 
