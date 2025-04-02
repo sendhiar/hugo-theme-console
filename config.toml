@@ -9,11 +9,15 @@ googleAnalytics = "G-W6R2LTJLDG"
 enableEmoji = true
 enableRobotsTXT = true
 
+[services]
+  [services.googleAnalytics]
+    id = 'G-W6R2LTJLDG'
+
 [params]
   author = "sendhiar"
   sitename = "sendhiar-blog"
   github = "https://github.com/sendhiar"
-  description = " A vault of sendhiar's writing throughout the years. Talks about music, games, and stuff."
+  description = "A vault of sendhiar's writing throughout the years that is spread across the world-wide-web. Mostly talks about music."
 
   # Cutting off the page title to two chars for mobile (console-demo -> co)
   titleCutting = true
