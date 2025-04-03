@@ -18,6 +18,7 @@ enableRobotsTXT = true
   sitename = "sendhiar-blog"
   github = "https://github.com/sendhiar"
   description = "A vault of sendhiar's writing throughout the years that is spread across the world-wide-web. Mostly talks about music."
+  image = "/images/meta-image.png"
 
   # Cutting off the page title to two chars for mobile (console-demo -> co)
   titleCutting = true
